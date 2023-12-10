@@ -1,0 +1,1 @@
+import{B as s,b as a,c as o}from"./entry.d243ce33.js";const r=s({id:"category-store",state:()=>({categories:[]}),actions:{setCategories(e){this.categories=e},async fetchCategories(){const{$api:e}=o(),{data:t}=await a(()=>e("/categories"),"$9h3Loz4WXx");this.categories=t.value.categories}}});export{r as u};
